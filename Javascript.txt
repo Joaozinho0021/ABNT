@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>  
+
+        const numero1 = parseInt(prompt("digite um numero: "));
+        const numero2 = parseInt(prompt("digite outro numero: "));
+        const resultado = numero1 + numero2;
+        alert("a soma e: " + resultado);
+     
+      </script>
+
+ 
+</body>
+</html>
