@@ -1,0 +1,74 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8f0;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ /*personalização do header*/
+header {
+  background: orange;
+  color: white;
+  padding: 15px;
+}
+
+.logo {
+  width: 100px;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+.intro {
+  padding: 20px;
+  background: #ffe5b4;
+}
+/* Botões */
+button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* Efeito hover nos botões */
+button:hover {
+  background: #ff8533;
+}
+
+/* Cards de personagens */
+.personagens {
+  padding: 20px;
+}
+/* Layout dos cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* Estilo dos cards */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 200px;
+  padding: 10px;
+}
+/* Imagem dos personagens */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+  background: orange;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
