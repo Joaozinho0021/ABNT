@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Ball Site</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <img src="fotos do site/Dragon ball.png" alt="Logo Dragon Ball" class="logo">
+    <h1>Dragon Ball World</h1>
+  </header>
+
+  <!-- Seção principal -->
+  <section class="intro">
+    <h2>Bem-vindo ao mundo de Dragon Ball!</h2>
+    <p>
+      Conheça a jornada de Goku, Vegeta e outros guerreiros em busca das Esferas do Dragão.
+    </p>
+    <button id="botaoCuriosidade">Mostrar curiosidade</button>
+    <p id="textoCuriosidade"></p>
+  </section>
+
+  <!-- Personagens -->
+  <section class="personagens">
+    <h2>Personagens Principais</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="Img/Goku.jpg" alt="Goku">
+        <h3>Goku</h3>
+        <p>Um Saiyajin com um coração puro e sede de desafios.</p>
+      </div>
+      <div class="card">
+        <img src="fotos do site/vegeta.jpg" alt="Vegeta">
+        <h3>Vegeta</h3>
+        <p>O príncipe dos Saiyajins, determinado a superar Goku.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Site criado pelo aluno joão lucas</p>
+  </footer>
+
+  
+</body>
+</html>
+
+<script>  
+    // Lista de curiosidades sobre Dragon Ball
+const curiosidades = [
+  "Goku foi inspirado no personagem Sun Wukong, do livro Jornada ao Oeste.",
+  "O nome Saiyajin vem de uma brincadeira com vegetais.",
+  "Vegeta significa literalmente 'vegetal' em inglês.",
+  "O criador de Dragon Ball é Akira Toriyama.",
+  "As Esferas do Dragão foram inspiradas em lendas chinesas antigas."
+];
+
+// Quando clicar no botão, mostra curiosidade aleatória
+document.getElementById("botaoCuriosidade").addEventListener("click", function() {
+  const aleatorio = Math.floor(Math.random() * curiosidades.length);
+  document.getElementById("textoCuriosidade").textContent = curiosidades[aleatorio];
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
